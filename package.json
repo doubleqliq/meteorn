@@ -1,0 +1,31 @@
+{
+  "name": "meteorn",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-plugin-transform-class-properties": "^6.5.2",
+    "babel-preset-react-native": "^1.5.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-watch": "^4.3.5",
+    "invariant": "^2.2.0",
+    "mkdirp": "^0.5.1"
+  },
+  "dependencies": {
+    "ddp.js": "^2.0.1",
+    "minimongo": "^3.8.1"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.18.0-rc"
+  }
+}
